@@ -5,7 +5,7 @@ The multiple producer-multiple consumer problem using FIFO policy.
 
 `./gcc -pthread -o mpmc mpmc.c`
 
-`./mpmc [producers] [consumers] [tasks] [buffersize]`
+`./mpmc <producers> <consumers> <tasks> <buffersize>`
   
 ## Demonstration
 
