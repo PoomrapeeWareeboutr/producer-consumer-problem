@@ -1,15 +1,15 @@
 # Producer-consumer-problem
 The multiple producer-multiple consumer problem using FIFO policy.
 
-## to makefile and run
+## To make file and run
 
 `./gcc -pthread -o mpmc mpmc.c`
 
 `./mpmc [producers] [consumers] [tasks] [buffersize]`
   
-## demonstration
+## Demonstration
 
-if you have...
+Suppose you have...
 
 - producers have 4 threads
 - consumers have 2 threads
