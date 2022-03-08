@@ -69,8 +69,8 @@ void* consumer(void *args) {
 int main(int argc, char* argv[]) {
 
     if(argc != 5) {
-        fprintf(stderr, "usage: %s <producers> <consumers> <tasks> <buffersize>\n", argv[0]);
-	    exit(1);
+    	fprintf(stderr, "usage: %s <producers> <consumers> <tasks> <buffersize>\n", argv[0]);
+	exit(1);
     }
     
     producers = atoi(argv[1]);
