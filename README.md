@@ -1,7 +1,7 @@
 # Producer-consumer-problem
 The multiple producer-multiple consumer problem using FIFO policy.
 
-## To make file and run
+## To compile and run
 
 `gcc -pthread -o mpmc mpmc.c`
 
