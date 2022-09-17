@@ -1,4 +1,4 @@
-# Producer-consumer-problem
+# producer-consumer-problem
 The multiple producer-multiple consumer problem using FIFO policy.
 
 ## To compile and run
